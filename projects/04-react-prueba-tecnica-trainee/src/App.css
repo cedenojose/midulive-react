@@ -1,0 +1,29 @@
+/* alinear en fila */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+/* Alinear en columna */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+section img {
+  max-width: 320px;
+  height: auto;
+}
+
+.error {
+  background: rgb(228, 97, 97);
+  color: #fff;
+  padding: 24px;
+  text-align: center;
+}

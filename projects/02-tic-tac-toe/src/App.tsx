@@ -1,7 +1,13 @@
-import Board from "./components/Board";
+// import Board from "./components/Board";
+import ConectFourBoard from "./reto/components/ConectFourBoard";
 
-function App() {
-  return <Board />;
-}
+const App = () => {
+  return (
+    <>
+      {/* <Board /> */}
+      <ConectFourBoard />
+    </>
+  );
+};
 
 export default App;

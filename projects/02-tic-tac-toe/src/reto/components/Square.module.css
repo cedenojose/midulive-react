@@ -1,0 +1,13 @@
+.square {
+  width: 72px;
+  height: 72px;
+  border: 2px solid #fff;
+  font-size: 48px;
+  display: grid;
+  place-items: center;
+}
+
+.square.isSelected {
+  color: #fff;
+  background: #09f;
+}

@@ -1,0 +1,20 @@
+.modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: grid;
+  place-items: center;
+}
+
+.modal .card {
+  width: 300px;
+  height: 320px;
+  border: 1px solid #fff;
+  display: grid;
+  place-items: center;
+  border-radius: 24px;
+  background: #222;
+}

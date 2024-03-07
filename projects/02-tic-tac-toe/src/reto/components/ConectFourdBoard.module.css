@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  margin: 24px auto;
+}
+.board {
+  display: grid;
+  margin-bottom: 16px;
+  place-items: center;
+}
+.board h2 {
+  margin: 0px auto 24px;
+}
+.rows {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
